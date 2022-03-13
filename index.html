@@ -1,0 +1,601 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LOGO WEBSITE-->
+    <link rel="icon" type="image/png" href="./img-index/logo.png" />
+    <!-- LINK CSS WEBSITE-->
+     <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/templatemo.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"
+    />
+    <title>Shop - ShopSell</title>
+  </head>
+  <body>
+    <!-- TOP NAV TAB email, hotline-->
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block"
+      id="templatemo_nav_top"
+    >
+      <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+          <div>
+            <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
+            <!-- GMAIL TO SEND-->
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="mailto:quach.huy2015@gmail.com"
+              >quach.huy2015@gmail.com</a
+            >
+            <i class="fa fa-phone mx-2"></i>
+            <!-- PHONE TO SEND-->
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="tel:033-xxx-xxx"
+              >0xx-xxx-xxx</a
+            >
+          </div>
+          <div>
+            <!-- LOGO FACEBOOK, INSTAGRAM, TWITTER, LINKEDIN TO SEND-->
+            <a
+              class="text-light"
+              href="https://www.facebook.com/ThaiDuiHaha/"
+              target="_blank"
+              rel="sponsored"
+              ><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i
+            ></a>
+            <!-- LOGO FACEBOOK, INSTAGRAM, TWITTER, LINKEDIN TO SEND-->
+            <a
+              class="text-light"
+              href="https://www.instagram.com/tony_huyy/"
+              target="_blank"
+              ><i class="fab fa-instagram fa-sm fa-fw me-2"></i
+            ></a>
+            <!-- LOGO FACEBOOK, INSTAGRAM, TWITTER, LINKEDIN TO SEND-->
+            <a class="text-light" href="https://github.com/TonyyHuyy" target="_blank"
+              ><i class="fab fa-github fa-sm fa-fw me-2"></i
+            ></a>
+            <!-- LOGO FACEBOOK, INSTAGRAM, TWITTER, LINKEDIN TO SEND-->
+            <a
+              class="text-light"
+              href="https://www.twitter.com/"
+              target="_blank"
+              ><i class="fab fa-twitter fa-sm fa-fw"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Close Top Nav -->
+    <!-- header TAB HOME, ABOUT, SHOP, CONTACT, SEARCH...-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a
+          class="navbar-brand text-success logo h1 align-self-center"
+          href="index.html"
+        >
+          ShopSell
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#templatemo_main_nav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="
+            align-self-center
+            collapse
+            navbar-collapse
+            flex-fill
+            d-lg-flex
+            justify-content-lg-between
+          "
+          id="templatemo_main_nav"
+        >
+          <div class="flex-fill">
+            <ul
+              class="nav navbar-nav d-flex justify-content-between mx-lg-auto"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Xem thêm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopsell.html">Cửa hàng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar align-self-center d-flex">
+            <div
+              class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3"
+            >
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputMobileSearch"
+                  placeholder="Search ..."
+                />
+                <div class="input-group-text">
+                  <i class="fa fa-fw fa-search"></i>
+                </div>
+              </div>
+            </div>
+            <a
+              class="nav-icon d-none d-lg-inline"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#templatemo_search"
+            >
+              <i class="fa fa-fw fa-search text-dark mr-2"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+              <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+              <span
+                class="
+                  position-absolute
+                  top-0
+                  left-100
+                  translate-middle
+                  badge
+                  rounded-pill
+                  bg-light
+                  text-dark
+                "
+                >3</span
+              >
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+              <i class="fa fa-fw fa-user text-dark mr-3"></i>
+              <span
+                class="
+                  position-absolute
+                  top-0
+                  left-100
+                  translate-middle
+                  badge
+                  rounded-pill
+                  bg-light
+                  text-dark
+                "
+                >+2</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Close Header -->
+    <!-- MODAL SEARCH-->
+    <div
+      class="modal fade bg-white"
+      id="templatemo_search"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <form
+          action=""
+          method="get"
+          class="modal-content modal-body border-0 p-0"
+        >
+          <div class="input-group mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="inputModalSearch"
+              name="q"
+              placeholder="Tìm kiếm từ khóa ..."
+            />
+            <button
+              type="submit"
+              class="input-group-text bg-success text-light"
+            >
+              <i class="fa fa-fw fa-search text-white"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- close modal-->
+    <!-- Start Banner Center shopping sell -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img class="img-fluid" src="./img-index/banner_01.jpg" alt="Giày" />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left align-self-center">
+                  <h1 class="h1 text-success"><b>ShopSell</b> Shopping</h1>
+                  <h3 class="h2">Chuyên cung cấp các mặt hàng chất lượng</h3>
+                  <p>
+                    <b>ShopSell</b> chuyên cung cấp các mặt hàng công nghệ như: Laptop, bàn phím, chuột, ghế gaming,...
+                    và các thiết bị chuyên dùng dành cho máy tính của bạn.
+                    <a
+                      rel="sponsored"
+                      class="text-success"
+                      href="https://facebook.com/ThaiDuiHaha/"
+                      target="_blank"
+                      >ShopSell</a
+                    >
+                    Fanpage. Những hình ảnh hoàn toàn là sự thật tại
+                    <a
+                      rel="sponsored"
+                      class="text-success"
+                      href="#clone"
+                      target="_blank"
+                      >ShopSell</a
+                    >.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img
+                  class="img-fluid"
+                  src="./img-index/banner_02.jpg"
+                  alt="Vật dụng"
+                />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h1 class="h1"><b>CHẤT LƯỢNG</b></h1>
+                  <h3 class="h2">Tại <b>ShopSell</b> được đặt lên hàng đầu!</h3>
+                  <p>
+                    Khi mua sắm tại <b>ShopSell</b> nếu có gặp bất kỳ khó khăn
+                    nào hãy liên hệ với chúng tôi tại:
+                    <a
+                      rel="sponsored"
+                      class="text-success"
+                      href="https://facebook.com/ThaiDuiHaha/"
+                      target="_blank"
+                      >ShopSell</a
+                    >
+                    , đây là Fanpage chính thức của cửa hàng.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img
+                  class="img-fluid"
+                  src="./img-index/banner_03.jpg"
+                  alt="Vật dụng"
+                />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h1 class="h1"><b>CAM KẾT</b></h1>
+                  <h3 class="h2"></h3>
+                  <p>
+                    Tại <strong>ShopSell</strong> các mặt hàng đã được qua kiểm
+                    duyệt, đã được đánh giá chất lượng hoàn toàn là các mặt hàng
+                    chính thức. Nếu phát hiện có sự lừa gạt của
+                    <strong>ShopSell</strong> chúng tôi cam kết sẽ hoàn trả lại
+                    100% tiền của mặt hàng và đền bù gấp 10 lần.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+        <i class="fas fa-chevron-left"></i>
+    </a>
+    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+        <i class="fas fa-chevron-right"></i>
+    </a>
+    </div>
+    <!-- End Banner Center shopping sell-->
+    <!--BOTTOM SHOP -->
+    <section class="container py-5">
+      <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+          <h1 class="h1">
+            Các mặt hàng HOT tại <b>ShopSell</b>
+          </h1>
+          <!-- <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"
+            ><img
+              src="./img-index/chuot.png"
+              class="rounded-circle img-fluid border"
+          /></a>
+          <h5 class="text-center mt-3 mb-3">CHUỘT</h5>
+          <p class="text-center"><a class="btn btn-success" href="./shopsell.html">Xem</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"
+            ><img
+              src="./img-index/banphim.jpg"
+              class="rounded-circle img-fluid border"
+          /></a>
+          <h2 class="h5 text-center mt-3 mb-3">BÀN PHÍM</h2>
+          <p class="text-center"><a class="btn btn-success" href="./shopsell.html">Xem</a></p>
+        </div>
+        <div class="col-12 col-md-4 p-5 mt-3">
+          <a href="#"
+            ><img
+              src="./img-index/tainghe.png"
+              class="rounded-circle img-fluid border"
+          /></a>
+          <h2 class="h5 text-center mt-3 mb-3">TAI NGHE</h2>
+          <p class="text-center">
+            <a class="btn btn-success" href="./shopsell.html">Xem</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End BOTTOM SHOP -->
+    <!-- Start Featured Product bottom assess -->
+    <section class="bg-light">
+      <div class="container py-5">
+        <div class="row text-center py-3">
+          <div class="col-lg-6 m-auto">
+            <b class="h1"><b>ĐÁNH GIÁ</b></h1>
+            <p>
+              Sự đánh giá dưới đây dựa trên tỷ lệ đánh giá của các mặt hàng đã bán.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="shop-single.html">
+                <img
+                  src="./img-index/laptop.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                  <li class="text-muted text-right">$1300.00</li>
+                </ul>
+                <a
+                  href="shop-single.html"
+                  class="h2 text-decoration-none text-dark"
+                  ><b>Laptop</b></a
+                >
+                <p class="card-text">
+                  Laptop hay còn gọi là máy tính xách tay là một chiếc máy tính cá nhân giúp dễ dàng mang đi và làm việc ở những địa điểm và địa hình khác nhau.
+                </p>
+                <p class="text-muted">Đánh giá (15)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="shop-single.html">
+                <img
+                  src="./img-index/ghegaming.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                  <li class="text-muted text-right">$650.00</li>
+                </ul>
+                <a
+                  href="shop-single.html"
+                  class="h2 text-decoration-none text-dark"
+                  ><b>Ghế Gaming</b></a
+                >
+                <p class="card-text">
+                  Ghế Gaming là loại ghế có cấu tạo và chất liệu đặc biệt, có độ êm cao, có khả năng nâng đỡ cơ thể giúp người dùng có thể ngồi lâu không bị mỏi.
+                </p>
+                <p class="text-muted">Reviews (22)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="shop-single.html">
+                <img
+                  src="./img-index/lotchuot.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                  <li class="text-muted text-right">$35.00</li>
+                </ul>
+                <a
+                  href="shop-single.html"
+                  class="h2 text-decoration-none text-dark"
+                  ><b>Lót chuột</b></a
+                >
+                <p class="card-text">
+                  Lót chuột là một vật dụng không thể thiếu trong bộ sưu tập gaming gear của các game thủ. Ngoài việc bảo vệ cho chuột chơi game của bạn được bền bỉ, lót chuột còn là một vật dụng để trang trí rất đẹp và sang trọng.
+                </p>
+                <p class="text-muted">Reviews (74)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Featured Product -->
+    <!-- Start Footer bottom-->
+    <footer class="bg-dark" id="tempaltemo_footer">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 text-success border-bottom pb-3 border-light logo">ShopSell</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li>
+                          <i class="fas fa-map-marker-alt fa-fw"></i>
+                          <a class="text-decoration-none" href="address:clone">Địa chỉ:
+                            Clone.</a>
+
+                      </li>
+                      <li>
+                          <i class="fa fa-phone fa-fw"></i>
+                          <a class="text-decoration-none" href="tel:010-020-0340">Hotline:
+                          Clone.</a>
+                      </li>
+                      <li>
+                          <i class="fa fa-envelope fa-fw"></i>
+                          <a class="text-decoration-none" href="mailto:quach.huy2015@gmail.com">
+                            Mail: Clone.</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 text-light border-bottom pb-3 border-light">Sản phẩm</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li><a class="text-decoration-none" href="#Asus">Asus</a></li>
+                      <li><a class="text-decoration-none" href="#Acer">Acer</a></li>
+                      <li><a class="text-decoration-none" href="#Lenovo">Lenovo</a></li>
+                      <li><a class="text-decoration-none" href="#Dell">Dell</a></li>
+                      <li><a class="text-decoration-none" href="#Apple">Apple</a></li>
+                      <li><a class="text-decoration-none" href="#MSI">MSI</a></li>
+                      <li><a class="text-decoration-none" href="#Razer">Razer</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-4 pt-5">
+                  <h2 class="h2 text-light border-bottom pb-3 border-light">Mục lục</h2>
+                  <ul class="list-unstyled text-light footer-link-list">
+                      <li><a class="text-decoration-none" href="index.html">Trang chủ</a></li>
+                      <li><a class="text-decoration-none" href="about.html">Xem thêm</a></li>
+                      <li><a class="text-decoration-none" href="#index.html">Địa điểm</a></li>
+                      <li><a class="text-decoration-none" href="#index.html">Cảnh báo</a></li>
+                      <li><a class="text-decoration-none" href="contact.html">Liên hệ</a></li>
+                  </ul>
+              </div>
+
+          </div>
+
+          <div class="row text-light mb-4">
+              <div class="col-12 mb-3">
+                  <div class="w-100 my-3 border-top border-light"></div>
+              </div>
+              <div class="col-auto me-auto">
+                  <ul class="list-inline text-left footer-icons">
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/ThaiDuiHaha"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                      </li>
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/tony_huyy"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                      </li>
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://github.com/TonyyHuyy"><i class="fab fa-github fa-lg fa-fw"></i></a>
+                      </li>
+                      <li class="list-inline-item border border-light rounded-circle text-center">
+                          <a class="text-light text-decoration-none" target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-auto">
+                  <label class="sr-only" for="subscribeEmail">Email......</label>
+                  <div class="input-group mb-2">
+                      <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email......" style="color:white";>
+                      <div class="input-group-text btn-success text-light"><button
+                        type="submit"
+                        class="input-group-text bg-success text-light"
+                      >Đăng ký</button></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="w-100 bg-black py-3">
+          <div class="container">
+              <div class="row pt-2">
+                  <div class="col-12">
+                      <p class="text-left text-light">
+                          Copyright &copy; 2021 TonyHuy
+                          | Designed by <a rel="sponsored" href="https://facebook.com/ThaiDuiHaha" target="_blank">HuyQuach</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </footer>
+  <!-- End Footer bottom-->
+    <!--LINK JS WEBSITE CLONE-->
+    <script src="./js-clone/jquery-1.11.0.min.js"></script>
+    <script src="./js-clone/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js-clone/templatemo.js"></script>
+  <script src="./js-clone/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
